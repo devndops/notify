@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Account Activation</title>
+    <style>
+        {{.Theme.CSS}}
+    </style>
+</head>
+<body>
+<h1>Welcome, {{.RecipientName}}!</h1>
+<p>Thank you for registering with {{.AppName}}.</p>
+<p>Please activate your account by clicking the button below:</p>
+<p>
+    <a style="display:inline-block; text-align: center; background-color:{{.Theme.ButtonColor}}; color: white; padding: 10px 20px; text-decoration: none; border-radius: 3px;" href="{{.ActivationLink}}">Activate Account</a>
+</p>
+<p>Welcome aboard,<br/>The {{.AppName}} Team</p>
+<footer>
+    <p>© {{.Year}} {{.AppName}}. All rights reserved.</p>
+</footer>
+</body>
+</html>
