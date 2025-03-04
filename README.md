@@ -1,0 +1,1 @@
+A module to send HTML emails via MailSender
