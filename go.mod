@@ -1,4 +1,4 @@
-module notify
+module github.com/devndops/notify
 
 go 1.23.5
 

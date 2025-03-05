@@ -10,9 +10,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/devndops/notify/mail"   // update with your actual module path
+	"github.com/devndops/notify/models" // update with your actual module path
 	"github.com/mailersend/mailersend-go"
-	"notify/mail"   // update with your actual module path
-	"notify/models" // update with your actual module path
 )
 
 func init() {
