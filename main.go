@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/devndops/notify/mail"   // update with your actual module path
-	"github.com/devndops/notify/models" // update with your actual module path
+	"github.com/devndops/notify/mail"
+	"github.com/devndops/notify/models"
 	"github.com/mailersend/mailersend-go"
 )
 
